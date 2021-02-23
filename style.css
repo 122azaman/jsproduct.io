@@ -1,40 +1,60 @@
 body {
   font-family: "Prata", serif;
   background-color: rgb(190, 206, 281);
+  font-size: 19px;
+}
+div {
+  width: 1000px;
 }
 td {
-  width: 1000px;
+  width: 480px;
   text-align: left;
 }
 img {
-  height: 896px;
-  width: 890px;
+  height: 770px;
+  width: 800px;
 }
-table {
-}
-.info {
-  padding-left: 85px;
-  padding-right: 80px;
+
+h3,
+p {
+  padding-left: 50px;
+  padding-right: 30px;
 }
 .logopic {
   height: 200px;
-  width: 825px;
+  width: 800px;
+  margin-left: 0px;
 }
 button {
   height: 70px;
-  width: 190px;
-  margin-right: 13px;
+  width: 200px;
+  margin-right: 9px;
   font-family: "Prata", serif;
+  font-size: 18.5px;
+  border-radius: 15px;
 }
 .mr {
   background-color: rgb(207, 62, 101);
+  margin-left: 50px;
 }
 .c {
   background-color: rgb(235, 130, 115);
 }
+.p {
+  background-color: rgb(240, 155, 129);
+}
 .dr {
   background-color: rgb(227, 145, 183);
 }
-.p {
-  background-color: rgb(240, 155, 129);
+.mr:hover {
+  background-color: rgb(187, 42, 81);
+}
+.c:hover {
+  background-color: rgb(215, 110, 95);
+}
+.p:hover {
+  background-color: rgb(220, 135, 109);
+}
+.dr:hover {
+  background-color: rgb(207, 125, 163);
 }
