@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Product Website</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div>
       <table>
         <tr>
           <td>
@@ -17,16 +18,19 @@
           </td>
           <td class="info">
             <center><img class="logopic" src="img/abh-logopic.jpg"></center>
-            </br></br></br><h3>LIP GLOSS:</h3></br><p>Full pigment, weightless lip gloss.</p>
-            </br></br></br><h3>$16.00</h3></br><p>Free shipping for purchases above $25.00.</p>
-            </br></br></br><h3>COLORS:</br></h3>
-            <button onclick="functionOne()" type="button" class="mr">Metallic Rose</button>
-            <button onclick="functionTwo()"type="button" class="c">Caramel</button>
-            <button onclick="functionThree()"type="button" class="p">Parfait</button>
-            <button onclick="functionFour()"type="button" class="dr">Dusty Lilac</button>
+            </br><h3>LIP GLOSS:</h3></br><p>Full pigment, weightless lip gloss.</p>
+            </br><h3>$16.00</h3></br><p>Free shipping for purchases above $25.00.</p>
+            </br><h3>COLORS:</br></h3>
+            <div class="buttons">
+              <button onclick="functionOne()" type="button" class="mr">Metallic Rose</button>
+              <button onclick="functionTwo()"type="button" class="c">Caramel</button>
+              <button onclick="functionThree()"type="button" class="p">Parfait</button>
+              <button onclick="functionFour()"type="button" class="dr">Dusty Lilac</button>
+            </div>
           </td>
         </tr>
       </table>
+    </div>
 
     <script>
       function functionOne() {
